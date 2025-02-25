@@ -1,0 +1,196 @@
+/* Universal Styles */
+
+html {
+    font-family: "Verdana", sans-serif;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+}
+
+.main-content {
+
+}
+
+.center {
+
+}
+
+.content
+
+.video-container {
+
+}
+.video-container video {
+
+}
+
+.image-container {
+
+}
+
+.image-container img {
+
+}
+
+@media screen {
+    
+}
+
+/* Header */ /*missing some code for header*/
+
+.header {
+
+}
+
+.logo {
+
+}
+
+.logo-name {
+
+}
+
+@media screen {
+    
+}
+
+/* Learn-something-new */
+#learn-something-new {
+    
+}
+
+#learn-something-new .header {
+
+}
+
+#learn-something-new .CTA {
+
+}
+
+#learn-something-new h1 {
+
+}
+
+#learn-something-new h3 {
+
+}
+
+#learn-something-new .image-container {
+    
+}
+
+@media screen {
+    
+}
+
+/* Keep-practicing */
+
+#keep-practicing {
+
+}
+#keep-practicing .content-container {
+
+}
+
+#keep-practicing .image-container {
+
+}
+
+#keep-practicing .header {
+
+}
+
+#keep-practicing .information-container {
+
+}
+
+#keep-practicing .information {
+
+}
+
+#keep-practicing .image-container {
+
+}
+
+#keep-practicing .read-more {
+
+}
+
+@media screen {
+    
+}
+
+/* Start-learning */
+#start-learning {
+
+}
+
+#start-learning .center {
+
+}
+
+#start-learning .header {
+
+}
+
+#start-learning .courses-container {
+
+}
+
+#start-learning .course {
+
+}
+
+#start-learning .image-container {
+
+}
+
+@media screen {
+    
+}
+
+/* Theses-exhibit */
+#thesis-exhibit {
+
+}
+
+#thesis-exhibit .content-container {
+
+}
+#thesis-exhibit .video-container {
+
+}
+
+#thesis-exhibit .header {
+
+}
+
+#thesis-exhibit .information-container {
+
+}
+
+#thesis-exhibit .information {
+
+}
+
+@media screen {
+    
+}
+
+/* Footer */
+
+footer {
+
+}
+
+footer .content {
+
+}
+
+footer .copyrigth {
+
+}
+
+footer .fa-copyright {
+
+}
