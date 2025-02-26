@@ -3,33 +3,38 @@
 html {
     font-family: "Verdana", sans-serif;
     font-size: 22px;
-    color: black;
+    color: #353434;
     background-color: white;
 }
 
 .main-content {
-
+    position: relative;
+    top: 5.3125rem;
+    margin: auto 24px;
 }
 
-.center {
-
+.center { /*might need to be redone in the HTML*/
+    text-align: center;
+    width: 100%;
 }
-
-.content
 
 .video-container {
-
+    overflow: hidden;
 }
-.video-container video {
 
+.video-container video {
+    display: block;
+    max-height: fit-content;
+    max-width: 100%
 }
 
 .image-container {
-
+    overflow: hidden;
 }
 
 .image-container img {
-
+    display: block;
+    max-width: 100%;
 }
 
 @media screen {
@@ -38,16 +43,54 @@ html {
 
 /* Header */ /*missing some code for header*/
 
-.header {
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px seashell;
+    background-color: white;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.43rem 3rem;
+}
+
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .logo-name {
 
 }
 
-.logo {
-
+header .nav {
+    margin-left: auto;
+}
+header .nav ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
 }
 
-.logo-name {
+nav li {
+    padding-left: 3rem;
+}
 
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 0.85rem;
+    text-decoration: none;
 }
 
 @media screen {
@@ -56,27 +99,43 @@ html {
 
 /* Learn-something-new */
 #learn-something-new {
-    
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   height: 31.81rem;
+   width: 100%;
+   max-width: 100%;
+   background-color: lightgray;
+   background-position: bottom;
+   background-size: cover;
+   background-repeat: no-repeat;
+   opacity: 0.8;
+   padding: 0 24px;
 }
 
 #learn-something-new .header {
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 #learn-something-new .CTA {
-
+    display: flex;
+    justify-content:
 }
 
 #learn-something-new h1 {
-
+    margin-bottom: 1rem;
 }
 
 #learn-something-new h3 {
-
+    font-weight: 500;
 }
 
 #learn-something-new .image-container {
-    
+    width: 100%;
+    max-width: 60%;
+    max-height: 80%;
 }
 
 @media screen {
@@ -86,14 +145,26 @@ html {
 /* Keep-practicing */
 
 #keep-practicing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 22.72rem;
 
 }
-#keep-practicing .content-container {
 
+
+#keep-practicing .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 32px 24px;
 }
 
 #keep-practicing .image-container {
-
+    max-width: 60%;
+    max-height: auto;
 }
 
 #keep-practicing .header {
@@ -101,14 +172,25 @@ html {
 }
 
 #keep-practicing .information-container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 32px 24px 32px 0;
+    
 }
 
 #keep-practicing .information {
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-height: 10rem;
 }
 
-#keep-practicing .image-container {
+#keep-practing .content {
+    
+}
+
+#keep-practicing .image-container { Needs a new class
 
 }
 
@@ -145,6 +227,11 @@ html {
 
 }
 
+#start-learning .content {
+    
+}
+
+
 @media screen {
     
 }
@@ -159,6 +246,10 @@ html {
 }
 #thesis-exhibit .video-container {
 
+}
+
+#thesis-exhibit .content {
+    
 }
 
 #thesis-exhibit .header {
